@@ -1,6 +1,6 @@
 class Pirate
 
-  attr_accesor :name, :weight, :height
+  attr_accessor :name, :weight, :height
   @@all = []
   def initialize(name, weight, height)
     @name = name
