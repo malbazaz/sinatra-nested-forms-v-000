@@ -12,7 +12,7 @@ module FormsLab
     end
 
     post "/post" do
-      erb :show
+      erb :'pirates/show'
     end
 
     # code other routes/actions here
