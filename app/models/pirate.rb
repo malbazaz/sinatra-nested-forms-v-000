@@ -13,8 +13,4 @@ class Pirate
     @@all
   end
 
-  def self.clear
-    @@all = []
-  end
-
 end
