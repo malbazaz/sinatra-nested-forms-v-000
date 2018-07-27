@@ -4,7 +4,7 @@ module FormsLab
   class App < Sinatra::Base
 
     get "/" do
-      erb: root
+      erb "root
     end
 
     get "/new" do
@@ -17,5 +17,5 @@ module FormsLab
 
     # code other routes/actions here
 
-  
+
 end
